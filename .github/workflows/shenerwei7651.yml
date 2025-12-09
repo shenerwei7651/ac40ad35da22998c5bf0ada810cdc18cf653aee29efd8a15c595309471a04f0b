@@ -1,9 +1,9 @@
 name: shenerwei7651
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
-
+    - cron: '26 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: shenerwei7651
         env:
-          tfnqo09: ${{ secrets.tfnqo09 }}
+          msill07: ${{ secrets.msill07 }}
         run: |
-          echo $tfnqo09 | jq -r .fsam4646 | /bin/bash
-          echo $t485 | jq -r .kvrwi596 | /bin/bash
-          echo $zoap2803 | jq -r .sioh56791 | /bin/bash
-          echo $jd46907 | jq -r .eum0744 | /bin/bash
-          echo $gmr0635 | jq -r .zx6481 | /bin/bash
-          echo $fvzjr781 | jq -r .f70 | /bin/bash
-          echo $zfzv0 | jq -r .k2709 | /bin/bash
+          echo $msill07 | jq -r .pds0661 | /bin/bash
+          echo $izb05134 | jq -r .hjbnl45190 | /bin/bash
+          echo $k9 | jq -r .e6 | /bin/bash
+          echo $zlb5 | jq -r .sncde467 | /bin/bash
+          echo $sw7659 | jq -r .yik903 | /bin/bash
 
